@@ -1,0 +1,11 @@
+span
+{
+	color:white;
+	text-decoration:underline;
+}
+div
+{
+	border:10px double red;
+	background-color:yellow;
+	width:250px;
+}

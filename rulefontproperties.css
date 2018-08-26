@@ -1,0 +1,12 @@
+/* Css Comment */
+p
+{
+	font-family:arial;
+	font-weight:500;
+	font-size:28px;
+	font-style:italic;
+}
+h1
+{
+		font:bold italic 14px Arial;  /*Weight Style Size Family */
+}
