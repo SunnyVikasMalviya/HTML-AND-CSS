@@ -1,0 +1,27 @@
+#dj
+{
+	background-color:rgb(232,0,249);
+}
+p
+{
+	background-color:yellow;
+	padding:100px;
+}
+h1
+{
+	background-color:pink;
+	padding:50px 40px;   /*top and bottom    left and right*/
+}
+h2 
+{
+	background-color:red;
+	padding-top:50px;
+	padding-bottom:10px;
+	padding-left:90px;
+	padding-right:200px;
+}
+h3
+{
+	background-color:green;
+	padding:150px 400px 20px 130px;    /*top  right  bottom  left  i.e. clockwise direction from top*/
+}

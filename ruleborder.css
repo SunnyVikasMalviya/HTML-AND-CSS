@@ -1,0 +1,27 @@
+p
+{
+	background-color:silver;
+	border-style:dotted;
+	border-width:10px;
+	border-color:blue;
+}
+h1
+{
+	background-color:blue;
+	border-top:10px groove yellow;   /*width   style   color*/
+	border-right:15px ridge pink;
+}
+h2 
+{
+	background-color:orange;
+	border:13px double green;     /*width   style   color*/
+}
+h3
+{
+	background-color:gold;
+	border-top:13px inset brown;
+	border-bottom:14px outset black;
+	border-left:12px solid green;
+	border-right:15px dashed violet;
+	
+}
