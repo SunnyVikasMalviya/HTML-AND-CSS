@@ -1,0 +1,37 @@
+.boxone
+{
+	background-color:red;
+	padding:50px 0px;
+	width:300px;
+	text-align:center;
+	border-radius:50px;
+	border:blue 5px solid;
+}
+.boxtwo
+{
+	background-color:orange;
+	padding:50px 0px;
+	width:300px;
+	text-align:center;
+	border-top-left-radius:40px;
+	border:blue 5px solid;
+}
+.boxthree
+{
+	background-color:yellow;
+	padding:50px 0px;
+	width:300px;
+	text-align:center;
+	border-top-left-radius:20px;
+	border-bottom-right-radius:90px;
+	border:blue 5px solid;
+}
+.boxfour
+{
+	background-color:green;
+	padding:50px 0px;
+	width:300px;
+	text-align:center;
+	-webkit-border-radius:50px;
+	border:blue 5px solid;
+}
