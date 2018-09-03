@@ -1,0 +1,30 @@
+.colone
+{
+	float:left;
+	background-color:blue;
+	height:200px;
+	width:200px;
+	color:white;
+	text-align:center;
+	margin:10px;
+}
+.coltwo
+{
+	float:left;
+	background-color:red;
+	height:200px;
+	width:200px;
+	color:white;
+	text-align:center;
+	margin:10px;
+}
+.colthree
+{
+	float:left;
+	background-color:green;
+	height:200px;
+	width:200px;
+	color:white;
+	text-align:center;
+	margin:10px;
+}
