@@ -1,0 +1,40 @@
+.boxone
+{
+	padding:50px 0px;
+	width:300px;
+	text-align:center;
+	border-radius:50px;
+	background-image:linear-gradient(to top, red, green);
+}
+.boxtwo
+{
+	padding:50px 0px;
+	width:300px;
+	text-align:center;
+	border-radius:50px;
+	background-image:linear-gradient(to top, red, blue, green, yellow);
+}
+.boxthree
+{
+	padding:50px 0px;
+	width:300px;
+	text-align:center;
+	border-radius:50px;
+	background-image:linear-gradient(to top, black, white);
+}
+.boxfour
+{
+	padding:50px 0px;
+	width:300px;
+	text-align:center;
+	border-radius:50px;
+	background-image:linear-gradient(to top, red 30%, green);
+}
+.boxfive
+{
+	padding:50px 0px;
+	width:300px;
+	text-align:center;
+	border-radius:50px;
+	background-image:linear-gradient(to top, red 30%, blue 20%, green 40%, yellow 50%);
+}
