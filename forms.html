@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title> Forms </title>
+</head>
+<body>
+	<form action="" method="">
+		<fieldset>
+			<legend>Personnel Info</legend>
+			<label for="Name">Name:</label><input type="text" name="Name" maxlength="10" value="Name" size="100" id="Name"/><br/>
+			<label for="Password">Password:</label><input type="password" name="Password" maxlength="10" value="Name" size="100" id="Password"/><br/>
+			<label for="UI">Upload Image:</label><input type="file" size="10" id="UI"/><br/>
+		</fieldset>	
+		<br/>
+		<fieldset>	
+			<legend>About the college</legend>
+			<label for="Campus">Campus:</label>
+			<select name="campus" multiple="multiple" size="3" id="Campus">
+				<optgroup label="In Chennai">
+					<option value="1">KTR</option>
+					<option value="2" selected="selected">RMP</option>
+					<option value="3">VDP</option>
+				</optgroup>
+				<optgroup label="Outside Chennai">
+					<option value="4">SNP</option>
+					<option value="5">DEL</option>
+					<option value="6">AMW</option>
+				</optgroup>
+			</select><br/>
+			Facilities:<br/>
+			<input type="checkbox" name="facilities" value="meals" id="Meals"/><label for="Meals">Meals</label><br/>
+			<input type="checkbox" name="facilities" value="books" checked="checked" id="Books"/><label for="Books">Books</label><br/>
+			<input type="checkbox" name="facilities" value="CDC" id="CD"/><label for="CD">Carrier Development</label><br/>
+			<input type="checkbox" name="facilities" value="gym" id="Gym"/><label for="Gym">Gym</label><br/>
+			<label>Stay:</label><br/>
+			<input type="radio" name="Stay" value="hosteller" checked="checked">Hosteller<br/>
+			<input type="radio" name="Stay" value="hosteller">Day-Scholar<br/>
+		</fieldset>
+		<label fors="Comment">Comment:</label><textarea name="comment" value="comment" rows="15" cols="30" id="Comment"></textarea><br/>
+		<input type="button" value="I am a button"/><br/>
+		<input type="submit" value="Submit"/>
+		<input type="reset" value="Reset"/>	
+	</form>
+</body>
+</html>
