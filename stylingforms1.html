@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title> Styling forms </title>
+	<link rel="stylesheet" href="rulestylingforms1.css"/>
+</head>
+<body>
+	<form method="put" action="">
+		<fieldset class="pi">
+			<legend><img src="python.gif" alt="Python Image"></img>Personal Information<img src="python.gif" alt="Python Image"></img></legend>
+				<p>
+					<label for="fn"> first name: </label> 
+					<input type="text" name="fn" id="fn"><br/>
+				</p>	
+				<p>	
+					<label for="ln"> last name: </label>
+					<input type="text" name="ln" id="ln"><br/>
+				</p>	
+				<p>	
+					<label for="em"> email: </label>
+					<input type="text" name="em" id="em"><br/>
+				</p>	
+				<p>	
+					<label for="age"> age: </label>
+					<input type="text" name="age" id="age"><br/>
+				</p>	
+				<p>	
+					<label for="add"> address: </label> 
+					<input type="text" name="add" id="add"><br/>
+				</p>
+		</fieldset>
+		<fieldset>
+			<legend>Hobbies</legend>
+					<label for="sp"> sports </label>
+					<input type="checkbox" name="sports" id="sp">
+					<label for="gm"> gaming </label> 
+					<input type="checkbox" name="gaming" id="gm">
+					<label for="act"> acting </label>
+					<input type="checkbox" name="acting" id="act">
+					<label for="art"> art </label>
+					<input type="checkbox" name="art" id="art">
+		</fieldset>
+		<br/>
+		<input type="reset" name="reset">
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>

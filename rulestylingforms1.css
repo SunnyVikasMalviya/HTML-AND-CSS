@@ -1,0 +1,21 @@
+.pi label
+{
+	float:left;
+	width:110px;
+	/*text-align:right;*/
+	margin-right:10px;
+}
+fieldset
+{
+	width:300px;
+	background-color:#0bffb0;
+}
+fieldset legend
+{
+	font-weight:bold;
+	text-align:center;
+}
+form
+{
+	margin-left:500px;
+}
