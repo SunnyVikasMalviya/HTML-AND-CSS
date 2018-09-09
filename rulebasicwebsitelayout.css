@@ -1,0 +1,53 @@
+/*Getting rid of the default padding or the margins*/
+*
+{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+}
+header,nav,section,aside,footer,article
+{
+	display:block;
+}
+/*Centreing website*/
+.container
+{
+	width:1000px;
+	margin:0px auto;
+	background-color:grey;
+}
+.clear
+{
+	clear:both;
+}
+.logo
+{
+	float:left;
+}
+.topnav
+{
+	float:left;
+	width:960px;
+}
+.topnav ul li
+{
+	float:left;
+	padding:5px 10px;
+	margin:0px 20px;
+}
+/*floating section and aside*/
+.colone
+{
+	float:left;
+	width:700px;
+}
+.coltwo
+{
+	float:left;
+	width:300px;
+}
+/*clearing footer*/
+.foot
+{
+	clear:both;
+}
