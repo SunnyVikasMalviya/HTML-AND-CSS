@@ -1,0 +1,23 @@
+table
+{
+	border:2px solid black;
+	border-collapse:collapse;
+}
+th,td
+{
+	padding:5px;
+	border:2px solid black;
+}
+tr:nth-child(2n)
+{
+	background-color:pink;
+}
+thead
+{
+	background-color:green;
+}
+tfoot
+{
+	background-color:#affe00;
+	text-align:center;
+}
